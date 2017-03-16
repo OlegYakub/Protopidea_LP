@@ -1,0 +1,42 @@
+/* ==================================960========================== */
+
+@media screen and (max-width: 1170px){
+	section{
+		padding: 0 10px;
+	}
+/* ==========HEADER============ */
+
+	.header{
+		padding: 0 10px;
+	}
+	
+
+/* ==========main-1============ */
+
+	.main-1{
+		&__right{
+			width: 60%;
+			margin-left: 0;
+			img{
+				width: 100%;
+			}
+		}
+	}
+
+
+
+/* ==========main-4============ */
+	.main-4{
+		&__body{
+			margin: 0 30px;
+			margin-bottom: 40px;
+		}	
+	}
+
+
+
+	.footer{
+		padding: 20px 10px 0;
+	}
+
+}	

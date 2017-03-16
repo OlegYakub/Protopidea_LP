@@ -1,0 +1,42 @@
+/* ==================================744========================== */
+
+@media screen and (max-width: 959px){
+
+/* ==========HEADER============ */
+
+		.nav{
+			&__link{
+				padding: 0 10px;
+				//border-left: 1px solid #dbeff2;
+				span{
+					display: none;
+				}
+			}
+		}
+	
+
+/* ==========main-1============ */
+
+	.main-1{
+		&__right{
+			width: 50%;
+		}
+	}
+
+
+
+/* ==========FOOTER============ */
+	
+
+	.footer{
+		&__item{
+			display: block;
+			border: none;
+		}
+
+		&__nav{
+			border-left: 1px solid #dbeff2
+		}
+	}
+
+}	
